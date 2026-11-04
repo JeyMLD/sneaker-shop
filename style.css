@@ -1,0 +1,97 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #dfded6;
+}
+
+.logo1{
+    display: flex;
+    margin-left: 5%;
+    border-radius: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+
+.profil {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    margin-left: auto;
+    border-radius: 15px;
+
+
+}
+
+main {
+    background-color: rgb(227, 213, 188);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+}
+
+nav ul a{
+    color: black;
+    text-decoration: none;
+}
+
+.Panier{
+   display: flex;
+   flex-direction: none;
+   height: auto;
+   width: fit-content;
+   font-size: 16px;
+   font-weight: 400;
+   border-radius: 8px;
+   padding: 8px 16px;
+   text-decoration: none;
+   text-transform: none;
+   background: #8005F2;
+   color: white;
+   margin-left: auto;
+}
+
+section article{
+    flex-direction: column;
+    display: flex;
+}
+article img{
+    display: flex;
+    width: 20vw;
+    height: 30vh;
+}
+
+section{
+    display: flex;
+    gap: 30px;
+}
+
+.titre-commun{
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+.partiedroite{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
